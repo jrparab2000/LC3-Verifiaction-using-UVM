@@ -1,0 +1,47 @@
+uvmf:
+  environments:
+    lc3:
+      agents:
+      - initiator_responder: RESPONDER
+        name: imem_agent
+        type: imem
+      - initiator_responder: RESPONDER
+        name: dmem_agent
+        type: dmem
+      analysis_components: []
+      analysis_exports: []
+      analysis_ports: []
+      config_constraints: []
+      config_vars: []
+      existing_library_component: 'True'
+      hvl_pkg_parameters: []
+      non_uvmf_components: []
+      parameters: []
+      qvip_memory_agents: []
+      scoreboards: []
+      subenvs:
+      - name: fetch_environment
+        parameters: []
+        reg_block_instance_name: fetch_environment_rm
+        type: fetch
+      - name: decode_environment
+        parameters: []
+        reg_block_instance_name: decode_environment_rm
+        type: decode
+      - name: execute_environment
+        parameters: []
+        reg_block_instance_name: execute_environment_rm
+        type: execute
+      - name: writeback_environment
+        parameters: []
+        reg_block_instance_name: writeback_environment_rm
+        type: writeback
+      - name: memaccess_environment
+        parameters: []
+        reg_block_instance_name: memaccess_environment_rm
+        type: memaccess
+      - name: controller_environment
+        parameters: []
+        reg_block_instance_name: controller_environment_rm
+        type: controller
+      tlm_connections: []

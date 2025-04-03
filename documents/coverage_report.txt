@@ -1,0 +1,17 @@
+Coverage Report Summary Data by instance
+
+=================================================================================
+=== Instance: /imem_pkg
+=== Design Unit: work.imem_pkg
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Covergroups                      4        na        na   100.00%
+        Coverpoints/Crosses         60        na        na        na
+            Covergroup Bins        153       153         0   100.00%
+
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 4
+
+Total Coverage By Instance (filtered view): 100.00%
+

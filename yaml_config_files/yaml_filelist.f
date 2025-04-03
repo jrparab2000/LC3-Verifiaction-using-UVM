@@ -1,0 +1,44 @@
+# Fetch
+yaml_config_files/fetch_in_interface.yaml
+yaml_config_files/fetch_out_interface.yaml
+yaml_config_files/fetch_util_comp_fetch_predictor.yaml
+yaml_config_files/fetch_environment.yaml
+
+# Decode
+yaml_config_files/decode_in_interface.yaml
+yaml_config_files/decode_out_interface.yaml
+yaml_config_files/decode_util_comp_decode_predictor.yaml
+yaml_config_files/decode_environment.yaml
+
+# Execute
+yaml_config_files/execute_in_interface.yaml
+yaml_config_files/execute_out_interface.yaml
+yaml_config_files/execute_util_comp_execute_predictor.yaml
+yaml_config_files/execute_environment.yaml
+
+# Writeback
+yaml_config_files/writeback_in_interface.yaml
+yaml_config_files/writeback_out_interface.yaml
+yaml_config_files/writeback_util_comp_writeback_predictor.yaml
+yaml_config_files/writeback_environment.yaml
+
+
+# Memaccess
+yaml_config_files/memaccess_in_interface.yaml
+yaml_config_files/memaccess_out_interface.yaml
+yaml_config_files/memaccess_util_comp_memaccess_predictor.yaml
+yaml_config_files/memaccess_environment.yaml
+
+# Controller
+yaml_config_files/controller_in_interface.yaml
+yaml_config_files/controller_out_interface.yaml
+yaml_config_files/controller_util_comp_controller_predictor.yaml
+yaml_config_files/controller_environment.yaml
+
+# Imem, Dmem
+yaml_config_files/imem_interface.yaml
+yaml_config_files/dmem_interface.yaml
+
+# LC3 Bench
+yaml_config_files/lc3_environment.yaml
+yaml_config_files/lc3_bench.yaml

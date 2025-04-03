@@ -1,0 +1,41 @@
+uvmf:
+  benches:
+    lc3:
+      active_passive:
+      - bfm_name: fetch_environment_agent_fetch_in
+        value: PASSIVE
+      - bfm_name: fetch_environment_agent_fetch_out
+        value: PASSIVE
+      - bfm_name: decode_environment_decode_agent_in
+        value: PASSIVE
+      - bfm_name: decode_environment_decode_agent_out
+        value: PASSIVE
+      - bfm_name: execute_environment_execute_in_agent
+        value: PASSIVE
+      - bfm_name: execute_environment_execute_out_agent
+        value: PASSIVE
+      - bfm_name: writeback_environment_writeback_in_agent
+        value: PASSIVE
+      - bfm_name: writeback_environment_writeback_out_agent
+        value: PASSIVE
+      - bfm_name: memaccess_environment_agent_in
+        value: PASSIVE
+      - bfm_name: memaccess_environment_agent_out
+        value: PASSIVE
+      - bfm_name: controller_environment_controller_agent_in
+        value: PASSIVE
+      - bfm_name: controller_environment_controller_agent_out
+        value: PASSIVE
+      - bfm_name: imem_agent
+        value: ACTIVE
+      - bfm_name: dmem_agent
+        value: ACTIVE
+      active_passive_default: ACTIVE
+      clock_half_period: 5ns
+      clock_phase_offset: 9ns
+      existing_library_component: 'True'
+      interface_params: []
+      reset_assertion_level: 'True'
+      reset_duration: 250ns
+      top_env: lc3
+      use_dpi_link: 'False'
