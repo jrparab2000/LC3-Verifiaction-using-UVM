@@ -1,2 +1,2 @@
-# uvm_proj3
-UVM Project Group-14
+# uvm_project
+UVM Project LC3-Verifiaction
